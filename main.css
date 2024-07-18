@@ -32,21 +32,16 @@ body{
 }
 /* Header and Navigation */
 .header {
-   
     padding: 1.5em 2em;
     color: white;
     display: flex;
     justify-content: space-between;
-    background-color:#041b30;
-   
-  
-    
+    background-color:#041b30;    
 }
 ul{
     list-style: none;
 }
 nav ul{
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,8 +56,7 @@ header a{
     position: relative;
     padding-bottom: 5px; 
     transition: all 0.3s ease; 
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 header ul li a::after {
     content: '';
@@ -78,13 +72,10 @@ header ul li a::after {
 }
 
 header ul li a:hover::after {
-    transform: scaleX(1);
-    
-    
+    transform: scaleX(1);    
 }
 .header a:hover,
-.header a:active{
-    
+.header a:active{ 
     color: #cac6c4;
 }
 
@@ -92,21 +83,18 @@ header ul li a:hover::after {
 .hero-container {
     display: flex;
     justify-content: center;
-    background-color:#0b283f; /* Background color */
-    padding: 4em 0;
-  
-    
+    background-color:#0b283f;
+    padding: 4em 0;    
 }
 .hero {
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .card.about-me {
     padding:2em 1.2em;
-    min-width: 200px  ;
-    max-width: 500px;
+    min-width: 200px ;
+    max-width: 400px;
     background-color: white;
     background-color:#041b30;
     color: white;
@@ -125,9 +113,9 @@ header ul li a:hover::after {
 .about-me .svg-container:hover{
     background-color: #007bff; 
 }
-.container.image {
-    width: 35vw;
-    min-width: 400px;
+.image-container{
+ max-width: 500px;
+ 
     
 }
 .about-me__content{
@@ -151,8 +139,8 @@ header ul li a:hover::after {
 
 .skills-tools li{
     padding: 0.5em;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.425rem;
+    
 }
 .skills-tools header{
     padding-bottom: 1em;
@@ -373,6 +361,7 @@ padding-bottom: 0.5em;
 }
 .mobile-menu li{
     width: 100%;
+    font-size: 1.5rem;
 }
 .mobile_menu a{
     width: 100%;
@@ -438,10 +427,15 @@ padding-bottom: 0.5em;
         font-size: 12px;
     }
     .mobile-menu{
-        width:100%
+        width:91.95%;
     }
     .show-menu {
         display: block;
     }
-    
+    .image-container{
+        max-width: 350px;
+    }
+    .card.about-me{
+        width: 300px;
+    } 
 }
