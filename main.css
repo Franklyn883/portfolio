@@ -322,6 +322,16 @@ padding-bottom: 0.5em;
     display: flex;
 }
 
+.contacts .svg-container{
+    width:2.125rem;
+    height:2.125rem;
+}
+
+.contacts svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 .contacts .email .svg-container:hover,
 .contacts .email .svg-container:active{
     background-color: inherit;
@@ -334,11 +344,14 @@ padding-bottom: 0.5em;
 .contacts .svg-container:hover{
     background-color: #007bff; 
 }
-.svg-container.linkedin svg{
-    width: 1.5rem;
-    height: 1.5rem;
+.contacts .svg-container.linkedin svg{
+    width: 1.75rem;
+    height: 1.75rem;
 }
-
+.contacts .svg-container.linkedin{
+    width: 2.2rem;
+    height: 2.2rem;
+}
 
 /* Mobile */
 
