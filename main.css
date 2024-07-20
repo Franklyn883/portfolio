@@ -391,26 +391,12 @@ padding-bottom: 0.5em;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
-    position: relative;
-   
+    border-radius: 50%;  
 }
-.close-menu span::before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    border: 2.25px solid #007bff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;}
-    .close-menu span:hover::before {
-        width: 100%;
-        height: 100%;
+
+    .close-menu span:hover,
+    .close-menu span:active {
+       background-color: #0b283f;
     }
 .close-menu svg{
     width: 2rem;
