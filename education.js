@@ -9,6 +9,7 @@ educationBtn.forEach(btn =>{
     btn.addEventListener("click",(e)=>{
         e.preventDefault()
         education.scrollIntoView({behavior:"smooth"})
+        mobileMenu.style.display ="none"
     })
 })
 

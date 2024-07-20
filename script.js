@@ -19,6 +19,7 @@ aboutMeBtn.forEach(btn =>{
     btn.addEventListener("click", (e)=>{
         e.preventDefault()
         aboutMe.scrollIntoView({behavior:"smooth"})
+        mobileMenu.style.display ="none"
         console.log("js here")
     })
 })
@@ -27,6 +28,7 @@ skillsBtn.forEach(btn =>{
     btn.addEventListener("click", (e)=>{
         e.preventDefault()
         skills.scrollIntoView({behavior:"smooth"})
+        mobileMenu.style.display ="none"
         console.log("js here")
     })
 })
@@ -35,6 +37,7 @@ projectBtn.forEach(btn =>{
     btn.addEventListener("click", (e)=>{
         e.preventDefault()
         projects.scrollIntoView({behavior:"smooth"})
+        mobileMenu.style.display ="none"
         console.log("js here")
     })
 });
@@ -43,6 +46,7 @@ contactsBtn.forEach(btn =>{
     btn.addEventListener("click", (e)=>{
         e.preventDefault()
         contacts.scrollIntoView({behavior:"smooth"})
+        mobileMenu.style.display ="none"
         console.log("js here")
     })
 });
