@@ -182,10 +182,19 @@ header ul li a:hover::after {
     font-size: 1.5rem;
     font-weight: 600;
 }
+.project-read-more{
+    padding-bottom: 1.2em;
+    padding-right: 1.2em;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-
-
-
+.readmore-arrow{
+    font-size: 1.5rem;
+}
 
 .project-links .svg-container:hover,
 .project-links .svg-container:active{
@@ -272,7 +281,7 @@ border-radius: 0.25em;
     align-items: center;
 }
 
-.course-link{
+.course-link,.read-more-link{
     text-decoration: none;
     color: inherit;
     text-align: right;

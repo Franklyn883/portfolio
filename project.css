@@ -1,0 +1,42 @@
+.project-container{
+    max-width: 1000px;
+    width: 90vw;
+    margin: 5em auto;
+}
+.project-container section{
+    margin: 2em 0;
+}
+.project-container section h2{
+    padding-bottom: 0.5em;
+}
+.project-container ul{
+    list-style:disc;
+    margin-left: 2em;
+    font-size: 1.175rem;
+}
+h2 + p{
+padding-left: 1em;
+}
+p{
+    font-size: 1.175rem;
+}
+.link a {
+  
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    
+ 
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+footer{
+    background-color:  #041b30;
+    color: white;
+    padding: 4em 1.5em;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
