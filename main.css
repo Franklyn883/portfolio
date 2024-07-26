@@ -191,9 +191,12 @@ header ul li a:hover::after {
     flex-direction: column;
     justify-content: space-between;
 }
-
+.project-links{
+    display: flex;
+    align-items: center;
+}
 .readmore-arrow{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .project-links .svg-container:hover,
