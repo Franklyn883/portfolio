@@ -630,6 +630,16 @@ section {
   list-style: none;
 }
 
+.skills-card-wide {
+  grid-column: span 2;
+}
+
+.skills-tags-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1.5rem;
+}
+
 .skills-tags li {
   font-size: 0.9rem;
   color: var(--text-secondary);
@@ -836,9 +846,25 @@ section {
   .nav-menu.active {
     right: 0;
   }
+  .nav-container {
+    position: relative;
+  }
   .hamburger {
     display: block;
     z-index: 1001;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .skills-card-wide {
+    grid-column: span 1;
+  }
+  .skills-tags-grid {
+    grid-template-columns: 1fr;
   }
   .timeline::after {
     left: 10px;
@@ -850,3 +876,8 @@ section {
     padding-left: 35px;
   }
 }
+
+
+
+
+
